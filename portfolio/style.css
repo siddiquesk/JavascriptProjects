@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+header {
+  width: 100%;
+  height: 90px;
+  background-color: rgba(32, 160, 202, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 30px;
+}
+.menu li {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s 0.1s ease-in-out;
+  padding: 5px 10px;
+}
+.image {
+  width: 100px;
+  margin-left: 20px;
+}
+#touch {
+  width: 140px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+#touch:hover {
+  box-shadow: 0px 0px 5px black;
+  transition: 0.3s ease-in-out;
+}
+.menus:hover {
+  background-color: purple;
+  border-radius: 5px;
+  color: white;
+}
+.bio {
+  width: 90%;
+  height: 77vh;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.mypic {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2) inset;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.left {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 120px;
+}
+span {
+  color: rgb(233, 27, 137);
+}
+p {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 20px;
+}
+hr {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.experience {
+  width: 100%;
+  height: 80vh;
+}
+h1 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.hrline {
+  width: 70%;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.vrline {
+  height: 80px;
+  width: 2px;
+  background-color: black;
+}
+.python {
+  width: 60px;
+  position: relative;
+  top: -57px;
+  left: -15px;
+}
+.vrrolr {
+  font-size: 30px;
+  font-weight: 700;
+  width: 200px;
+  margin-top: 30px;
+  position: relative;
+  right: 50px;
+  color: #b8001f;
+}
+.vrdes {
+  font-size: 18px;
+  width: 200px;
+  margin-top: 10px;
+  position: relative;
+  right: 50px;
+  color: #181c14;
+}
+.year {
+  font-size: 20px;
+  color: #795604;
+  position: relative;
+  right: 50px;
+}
+.full {
+  position: relative;
+  top: 20px;
+}
+.one {
+  position: relative;
+  left: 4px;
+}
+.last {
+  position: relative;
+  left: -55px;
+}
+.projects {
+  width: 100%;
+  height: 100vh;
+}
+.slider {
+  width: 80%;
+  overflow: hidden;
+  height: 75vh;
+  background-color: black;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.6);
+}
+.imgcontainer {
+  display: flex;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  color: white;
+  transform: translateY(-50%);
+  font-size: 30px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.previous {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+.btn:hover {
+  opacity: 1;
+}

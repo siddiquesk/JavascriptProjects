@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(28, 240, 240);
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 40px;
+  width: 400px;
+  height: fit-content;
+  background-color: rgb(55, 96, 98);
+  border-radius: 5px;
+}
+.screen {
+  background-color: rgb(55, 96, 98);
+  width: 100%;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 50px;
+  margin-top: 60px;
+}
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+button {
+  width: 20%;
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(55, 96, 98);
+  color: rgb(248, 244, 244);
+  cursor: pointer;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+}
+.equal {
+  width: 100%;
+  text-align: center;
+  color: rgb(9, 255, 206);
+  margin: 10px 0px;
+}
+.operator {
+  color: rgb(9, 255, 206);
+}
