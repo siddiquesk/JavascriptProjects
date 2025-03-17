@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style for dynamically created span elements */
+span {
+  /* Set the background image */
+  background: url(./2496508.jpg);
+  background-size: cover;
+
+  /* Absolute positioning to place the element freely */
+  position: absolute;
+  
+  /* Shift the element to correctly align with its center */
+  transform: translate(-50%, -50%);
+
+  /* Make the element circular */
+  border-radius: 50%;
+
+  /* Apply animation for movement */
+  animation: move 5s 0.2s infinite ease-in;
+
+  /* Ensure the element does not interfere with mouse interactions */
+  pointer-events: none;
+
+  /* Add a slight shadow for a glowing effect */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  
+  /* Reduce opacity to give a fading effect */
+  opacity: 0.8;
+
+  /* Smooth out the animation transitions */
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Keyframe animation for moving the span upward */
+@keyframes move {
+  0% {
+    /* Start at the original position */
+    transform: translate(-50%, -50%);
+    opacity: 1;  /* Fully visible at the start */
+  }
+  100% {
+    /* Move far upward and fade out */
+    transform: translate(-50%, -5000%);
+    opacity: 0;  /* Gradually disappear */
+  }
+}

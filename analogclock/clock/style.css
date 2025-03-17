@@ -8,6 +8,7 @@ body {
   width: 100%;
   height: 100vh;
 }
+
 .container {
   width: 400px;
   height: 400px;
@@ -27,7 +28,7 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3) inset;
-  background-image: url("clock.png");
+  background-image: url("./clock.png");
   background-size: cover;
   display: flex;
   justify-content: center;
