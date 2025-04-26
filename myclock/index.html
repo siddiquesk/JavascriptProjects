@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        <p>Hours</p>
+        <div class="content hours"></div>
+      </div>
+      <div>
+        <p>Minutes</p>
+        <div class="content minutes"></div>
+      </div>
+      <div>
+        <p>Seconds</p>
+        <div class="content second"></div>
+      </div>
+      <div>
+        <p>AM/PM</p>
+        <div class="content ampm"></div>
+      </div>
+    </div>
+
+    <div class="para"></div>
+
+    <button id="restartBtn">Restart Clock</button>
+
+    <audio
+      id="buzzer"
+      src="https://www.soundjay.com/button/beep-07.wav"></audio>
+    <script src="app.js"></script>
+  </body>
+</html>

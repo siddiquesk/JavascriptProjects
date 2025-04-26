@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(7, 7, 7);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.wrapper {
+  display: flex;
+  background-color: white;
+  padding: 20px 10px;
+  height: fit-content;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  max-height: 300px;
+  min-height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  padding: 40px;
+  background-color: black;
+  color: red;
+  margin: 10px;
+  font-size: 24px;
+  border-radius: 10px;
+}
+.wrapper p {
+  font-size: 18px;
+  color: red;
+  text-transform: uppercase;
+}
+.para {
+  margin-top: 20px;
+}
+#restartBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: none;
+  cursor: pointer;
+}
